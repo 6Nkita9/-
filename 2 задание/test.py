@@ -76,6 +76,7 @@ def test_copy(copy_fixture):
     assert copy_fixture == True
 
 
+    
 
 #Тест функции №8 Перемещение файлов;
 @pytest.fixture()
@@ -85,6 +86,9 @@ def move_fixture():
 def test_move(move_fixture):
     assert move_fixture == True
 
+    
+    
+    
 
 #Тест функции №9 Создание папки;
 @pytest.fixture()
@@ -105,6 +109,9 @@ def test_cf(cf_fixture):
     assert cf_fixture == True
 
 
+    
+    
+    
 
 #Тест функции №11 Удаление папки;
 @pytest.fixture()
@@ -115,6 +122,9 @@ def test_rmfold(rmfold_fixture):
     assert rmfold_fixture == True
 
 
+    
+    
+    
 
 #Тест функции №12 Просмотр содержимого файла;
 @pytest.fixture()
@@ -125,6 +135,8 @@ def test_cet(cet_fixture):
     assert cet_fixture == True
 
 
+    
+    
 
 #Тест функции №13 просмотр текущего пути;
 @pytest.fixture()
@@ -135,6 +147,10 @@ def test_pwd(pwd_fixture):
     assert pwd_fixture == True
 
 
+    
+    
+    
+    
 #Тест функции №14 определение длины текущего пути;
 @pytest.fixture()
 def beginerLength_fixture():
@@ -143,6 +159,9 @@ def beginerLength_fixture():
 def test_beginerLength(beginerLength_fixture):
     assert beginerLength_fixture == True
 
+    
+    
+    
 #Тест функции №15 функция вызывающая помощь;
 @pytest.fixture()
 def  help_fixture():
